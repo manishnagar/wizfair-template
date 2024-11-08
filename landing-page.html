@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1.0"
+    />
+    <title>Wizfair</title>
+
+    <!-- CSS  -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link
+      href="css/materialize.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+    <link
+      href="css/style.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+    <style>
+      #blue-dot-bg {
+        background-image: url("images/blue-dot.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right top;
+        height: 155px;
+        padding: 0px 40px 0px 15px;
+      }
+      .card-bg {
+        background-image: url("images/quotes.svg");
+        background-repeat: no-repeat;
+        background-size: 70px;
+        background-position: 30px 25px;
+        padding: 20px 20px;
+      }
+      #orange-dot-bg {
+        background-image: url("images/orange-dot.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right top;
+        height: 155px;
+        padding: 0px 40px 0px 15px;
+      }
+      #orange-dot-bg1 {
+  background-image: url("images/orange-dot.svg"), url("images/blue-dot.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 150px 150px;
+  background-position: right top, left bottom;
+  height: 620px;
+  padding: 0px 0px 0px 15px;
+}
+    </style>
+  </head>
+
+  <body>
+    <div class="navigation-bar">
+      <nav role="navigation" class="mynav">
+        <div class="nav-wrapper">
+          <div class="left">
+            <ul class="left">
+              <li>
+                <a id="logo-container" href="#"
+                  ><img src="images/wizfairlogo.svg" alt="Logo"
+                /></a>
+              </li>
+              <li>
+                <div class="line"></div>
+              </li>
+              <li class="active"><a href="#">Flight</a></li>
+              <li><a href="#">Hotels</a></li>
+              <li><a href="#">Holiday Package</a></li>
+              <li><a href="#">Cruise</a></li>
+              <li><a href="#">Insurance</a></li>
+              <li><a href="#">Visa</a></li>
+            </ul>
+          </div>
+          <div class="right">
+            <ul class="right hide-on-med-and-down">
+              <li>
+                <a href="#">
+                  <span><img src="images/inr.svg" /></span> INR
+                  <span><img src="images/down-arrow.svg" /></span
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><span><img src="images/helpsupport.svg" /></span> Help &
+                  Support</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><span><img src="images/signin.svg" /></span> Sign in</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><span><img src="images/menubar.svg" /></span
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="section">
+        <div class="first-section">
+          <div class="sec1-flex">
+            <div>
+              <div class="sec1-flex_1">
+                <div>
+                  <div class="main-heading">
+                    Get a break and Explore the Skies
+                  </div>
+                  <div class="book-plan">Book, Plan, Book Again</div>
+                </div>
+                <div class="fs2">
+                  <img
+                    src="images/hello1.png"
+                    width="200px"
+                    class="first-img"
+                  />
+                  <img src="images/second-plane.svg" class="second-img" />
+                </div>
+                <div>
+                  <div class="left-img">
+                    <img src="images/left-image1.svg" />
+                  </div>
+                  <div class="left-img1">
+                    <img src="images/left-image2.svg" />
+                  </div>
+                  <div class="orange-dot">
+                    <img src="images/orange-dot.svg" />
+                  </div>
+                </div>
+              </div>
+              <div class="form-bg">
+              <form>
+                <div class="select-flex">
+                  <div>
+                    <label>
+                      <input class="with-gap radio-blue" name="group1" type="radio" checked />
+                      <span>Round Trip</span>
+                    </label>
+                    <label>
+                      <input class="with-gap radio-blue" name="group1" type="radio" />
+                      <span>One Way</span>
+                    </label>
+                  </div>
+                  <div class="select-bg" >
+                    <div><img src="images/user.svg"/></div>
+                    <div>
+                    <select class="custom-select">
+                      <option value="" disabled selected>1 Traveller</option>
+                      <option value="1">2 Traveller</option>
+                      <option value="2">3 Traveller</option>
+                    </select>
+                  </div>
+                  </div>
+
+                  <div class="select-bg">
+                    <div><img src="images/user.svg"/></div>
+                    <div>
+                    <select class="custom-select">
+                      <option value="" disabled selected>Economy</option>
+                      <option value="1">Business</option>
+                      <option value="2">Standard</option>
+                    </select>
+                  </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="formflexone">
+                <div class="from-to-flex flex1">
+                  <div>
+                    <div class="from-text"><span><img src="images/location.svg"/> &nbsp;</span> Living From</div>
+                    <div class="to-text">Indira Gandhi International</div>
+                  </div>
+                  <div class="arrow-box"><img src="images/left-right.svg" width="20px" height="20px"/></div>
+                  <div>
+                    <div class="from-text"><span><img src="images/location.svg"/> &nbsp;</span> Going To</div>
+                    <div class="to-text">Chhatrapati Shivaji Inter...</div>
+                  </div>
+                </div>
+
+                <div class="from-to-flex flex2">
+                  <div class="departure-text">
+                    <div class="from-text">Departure</div>
+                    <div class="to-text">27 Aug 2024</div>
+                  </div>
+
+                  <div class="left-border">
+                    <div class="from-text">Return</div>
+                    <div class="to-text">Book Round trip to save extra</div>
+                  </div>
+                </div>
+                <div class="flex3">
+                 <div class="button-search">Search</div>
+                </div>
+              </div>
+              </div>
+              
+              </form>        
+            </div>
+            </div>
+
+            <div>
+              <div>
+                <div id="blue-dot-bg">
+                  <div>
+                    <img
+                      src="images/third-plane.svg"
+                      alt="blue-plane"
+                      class="img-pos"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src="images/sec1-right.svg"
+                      alt="right-img"
+                      class="right-img-pos"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+<!-- we offer best offer service html code start -->
+<div class="best-service">
+  <div class="offer-flex">
+    <div class="offer-flex1">
+      <div class="page-subheading">KEY FEATURES</div>
+      <div class="service-heading">We offer best service</div>
+      <div class="service-text">Hey! Wizair there to help you to find our dream holiday.<br/>
+        Easy you just find where you want to go and buy the ticket.</div>
+
+        <div>
+          <div class="location-flex">
+            <div class="icon-location-bg"><img src="images/location1.svg"/></div>
+            <div>
+              <div class="heading">Select many location</div>
+              <div class="subheading">Choose your favourite location</div>
+            </div>
+          </div>
+          <div class="location-flex active" >
+            <div class="icon-trip-bg"><img src="images/calender1.svg"/></div>
+            <div>
+              <div class="heading">Schedule Your trip</div>
+              <div class="subheading">Set the date you want</div>
+            </div>
+          </div>
+          <div class="location-flex">
+            <div class="icon-discount-bg"><img src="images/discount.svg"/></div>
+            <div>
+              <div class="heading">Big Discount</div>
+              <div class="subheading">Get discount for every service</div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+    <div id="orange-dot-bg1" class="offer-flex2">
+      <div><img src="images/offer1.svg" alt="service-offer"/></div>
+      <div class="offer-img-pos"><img src="images/offer2.svg" alt="service-offer" width="406px"/></div>
+    </div>
+    
+    </div>
+  
+</div>
+</div>
+<!-- we offer best offer service html code End -->
+
+
+ <!-- Top Deals from Delhi html code start -->
+ <div class="topdeals">
+  <div class="page-subheading">Top Deals</div>
+  <div class="subheading-flex">
+    <div class="page-heading">Top Deals From <span class="delhi">Delhi</span></div>
+    <div class="explore-all-btn">Explore All</div>
+  </div>
+  <div class="topdeals-container">
+    <div class="topdeals-item">
+      <div class="card-pad">
+      <div class="topdeals-flex">
+        <div class="date-text"><span><img src="images/calender.svg" class="calender-img"/></span> Dec 30 - Mar 11</div>
+        <div><img src="images/gulf.svg" class="airline-img"/></div>
+      </div>
+      <div class="topdeals-flex">
+        <div>
+        <div class="start-text">DEL</div>
+        <div class="start-text1">New Delhi</div>
+      </div>
+      <div>
+        <div class="round-trip">Round Trip</div>
+        <div class="start-text1">&lt;----------&gt;</div>
+      </div>
+      <div>
+        <div class="start-text right-align">LON</div>
+        <div class="start-text1 right-align">London</div>
+      </div>
+      </div>
+    </div>
+    <div class="starting-from">
+      <div class="starting-text">Starting From  - <span class="amount-color">₹177800</span></div>
+    </div>
+    </div>
+    <div class="topdeals-item">
+      <div class="card-pad">
+      <div class="topdeals-flex">
+        <div class="date-text"><span><img src="images/calender.svg" class="calender-img"/></span> Dec 30 - Mar 11</div>
+        <div><img src="images/gulf.svg" class="airline-img"/></div>
+      </div>
+      <div class="topdeals-flex">
+        <div>
+        <div class="start-text">DEL</div>
+        <div class="start-text1">New Delhi</div>
+      </div>
+      <div>
+        <div class="round-trip">Round Trip</div>
+        <div class="start-text1">&lt;----------&gt;</div>
+      </div>
+      <div>
+        <div class="start-text right-align">LON</div>
+        <div class="start-text1 right-align">London</div>
+      </div>
+      </div>
+    </div>
+    <div class="starting-from">
+      <div class="starting-text">Starting From  - <span class="amount-color">₹177800</span></div>
+    </div>
+    </div>
+    <div class="topdeals-item">
+      <div class="card-pad">
+      <div class="topdeals-flex">
+        <div class="date-text"><span><img src="images/calender.svg" class="calender-img"/></span> Dec 30 - Mar 11</div>
+        <div><img src="images/gulf.svg" class="airline-img"/></div>
+      </div>
+      <div class="topdeals-flex">
+        <div>
+        <div class="start-text">DEL</div>
+        <div class="start-text1">New Delhi</div>
+      </div>
+      <div>
+        <div class="round-trip">Round Trip</div>
+        <div class="start-text1">&lt;----------&gt;</div>
+      </div>
+      <div>
+        <div class="start-text right-align">LON</div>
+        <div class="start-text1 right-align">London</div>
+      </div>
+      </div>
+    </div>
+    <div class="starting-from">
+      <div class="starting-text">Starting From  - <span class="amount-color">₹177800</span></div>
+    </div>
+    </div>
+    <div class="topdeals-item">
+      <div class="card-pad">
+      <div class="topdeals-flex">
+        <div class="date-text"><span><img src="images/calender.svg" class="calender-img"/></span> Dec 30 - Mar 11</div>
+        <div><img src="images/gulf.svg" class="airline-img"/></div>
+      </div>
+      <div class="topdeals-flex">
+        <div>
+        <div class="start-text">DEL</div>
+        <div class="start-text1">New Delhi</div>
+      </div>
+      <div>
+        <div class="round-trip">Round Trip</div>
+        <div class="start-text1">&lt;----------&gt;</div>
+      </div>
+      <div>
+        <div class="start-text right-align">LON</div>
+        <div class="start-text1 right-align">London</div>
+      </div>
+      </div>
+    </div>
+    <div class="starting-from">
+      <div class="starting-text">Starting From  - <span class="amount-color">₹177800</span></div>
+    </div>
+    </div>
+    <div class="topdeals-item">
+      <div class="card-pad">
+      <div class="topdeals-flex">
+        <div class="date-text"><span><img src="images/calender.svg" class="calender-img"/></span> Dec 30 - Mar 11</div>
+        <div><img src="images/gulf.svg" class="airline-img"/></div>
+      </div>
+      <div class="topdeals-flex">
+        <div>
+        <div class="start-text">DEL</div>
+        <div class="start-text1">New Delhi</div>
+      </div>
+      <div>
+        <div class="round-trip">Round Trip</div>
+        <div class="start-text1">&lt;----------&gt;</div>
+      </div>
+      <div>
+        <div class="start-text right-align">LON</div>
+        <div class="start-text1 right-align">London</div>
+      </div>
+      </div>
+    </div>
+    <div class="starting-from">
+      <div class="starting-text">Starting From  - <span class="amount-color">₹177800</span></div>
+    </div>
+    </div>
+    <div class="topdeals-item">
+      <div class="card-pad">
+      <div class="topdeals-flex">
+        <div class="date-text"><span><img src="images/calender.svg" class="calender-img"/></span> Dec 30 - Mar 11</div>
+        <div><img src="images/airindia.svg" class="airline-img"/></div>
+      </div>
+      <div class="topdeals-flex">
+        <div>
+        <div class="start-text">DEL</div>
+        <div class="start-text1">New Delhi</div>
+      </div>
+      <div>
+        <div class="round-trip">Round Trip</div>
+        <div class="start-text1">&lt;----------&gt;</div>
+      </div>
+      <div>
+        <div class="start-text right-align">LON</div>
+        <div class="start-text1 right-align">London</div>
+      </div>
+      </div>
+    </div>
+    <div class="starting-from">
+      <div class="starting-text">Starting From  - <span class="amount-color">₹177800</span></div>
+    </div>
+    </div>
+  </div>
+
+  <div class="topdeals-text">*All fares above were last found on: <span class="delhi">Jul 26, 2024 at 07:39:10 AM UTC.</span> Fares are round trip. Fares incl. all fuel surcharges, <span class="underline">taxes & fees</span> and our service fees. Displayed fares are based on historical data, are subject to change and cannot be guaranteed at the timeof booking. See all booking <span class="underline">terms and conditions.</span></div>
+</div>
+
+      <!-- Top Deals from Delhi code css End -->
+
+      <!-- Explore Trending Destination code start -->
+      <div class="trending-destination">
+        <div class="subheading-flex">
+          <div class="page-subheading">Treding Destination</div>
+          <div class="explore-all-btn">Explore All</div>
+        </div>
+        <div class="page-heading">Explore stays in trending destinations</div>
+
+        <div class="trending-container">
+          <div class="grid-item">
+            <img src="images/uk.svg" alt="uk" />
+            <div class="text-overlay">
+              <div class="overlay-heading">United Kingdom</div>
+              <div class="overlay-subheading">Northern Ireland</div>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="nested-grid">
+              <div class="nested-item">
+                <img src="images/canada.svg" alt="canada" />
+                <div class="text-overlay">
+                  <div class="overlay-heading">Canada</div>
+                  <div class="overlay-subheading">The Great White North</div>
+                </div>
+              </div>
+              <div class="nested-item">
+                <img src="images/srilanka.svg" alt="Srilanka" />
+                <div class="text-overlay">
+                  <div class="overlay-heading">Sri Lanka</div>
+                  <div class="overlay-subheading">Galle Fort</div>
+                </div>
+              </div>
+            </div>
+            <img src="images/america.svg" alt="america" />
+            <div class="text-overlay">
+              <div class="overlay-heading">America</div>
+              <div class="overlay-subheading">East Cost, America</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Explore Trending Destination html code End -->
+
+        <!-- happy customer code star -->
+        <div class="happy-customer">
+          <div class="page-subheading">Testimonial</div>
+          <div class="slider-container">
+            <div class="slider-content">
+              <div class="content-item active">
+                <div class="happy-customer">Happy Customers</div>
+                <div class="customer-text">
+                  We have a huge customer base from all categories and financial
+                  backgrounds, and their opinions <br />
+                  matter a lot. Check out our happy customer reviews before you
+                  choose our services.
+                </div>
+              </div>
+              <div class="content-item">
+                <div class="happy-customer">Satisfactory Customers</div>
+                <div class="customer-text">
+                  The Quick brown fox jumps over the lazy little dog. No matter a
+                  lot. Check out our happy customer<br />
+                  reviews before you choose our services.
+                </div>
+              </div>
+              <div class="content-item">
+                <div class="happy-customer">Bad Customers</div>
+                <div class="customer-text">
+                  We have a huge customer base from all categories and financial
+                  backgrounds, and their opinions <br />
+                  The Quick brown fox jumps over the lazy little dog.
+                </div>
+              </div>
+  
+            </div>
+            <div class="slider-buttons">
+              <div id="prevBtn"><img src="images/left-arrow.svg" alt="left-arrow"/></div>
+              <div id="nextBtn"><img src="images/right-arrow.png" alt="left-arrow" class="arrow-position"/></div>
+            </div>
+          </div>
+        </div>
+        <!-- Testimonials section code start -->
+        <div class="testimonials">
+          <div class="row">
+            <div class="col l5 s12">
+              <div class="dot-pos"><img src="images/half-orange.svg" /></div>
+  
+              <div class="circle">
+                <div><img src="images/user-girl.svg" /></div>
+              </div>
+            </div>
+            <div class="col l7 s12">
+              <div class="carousel">
+                <a class="carousel-item" href="#">
+                  <div class="card card-bg">
+                    <div class="card-contents">
+                      <div><img src="images/user.png" /></div>
+                      <div class="user">Emily</div>
+                      <div class="cityname">Chicago</div>
+                      <div class="star">★ ★ ★ ★ ★</div>
+                      <div class="card-text">
+                        "We Were blown away by the personalized itineray Wizfair
+                        created for our honeymoon. Every detail was perfect!"
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a class="carousel-item" href="#">
+                  <div class="card card-bg">
+                    <div class="card-contents">
+                      <div><img src="images/user.png" /></div>
+                      <div class="user">Emily</div>
+                      <div class="cityname">Chicago</div>
+                      <div class="star">★ ★ ★ ★ ★</div>
+                      <div class="card-text">
+                        "We Were blown away by the personalized itineray Wizfair
+                        created for our honeymoon. Every detail was perfect!"
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a class="carousel-item" href="#">
+                  <div class="card card-bg">
+                    <div class="card-contents">
+                      <div><img src="images/user.png" /></div>
+                      <div class="user">Emily</div>
+                      <div class="cityname">Chicago</div>
+                      <div class="star">★ ★ ★ ★ ★</div>
+                      <div class="card-text">
+                        "We Were blown away by the personalized itineray Wizfair
+                        created for our honeymoon. Every detail was perfect!"
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonials section code end -->
+  
+ 
+      <!-- Discover new favourite stay code start -->
+      <div class="discover-new-stay">
+        <div class="subheading-flex">
+          <div class="page-subheading">Top Packages</div>
+          <div class="explore-all-btn">Explore All</div>
+        </div>
+        <div class="page-heading">Discover your new favourite stay</div>
+
+        <div class="wrapper">
+          <div class="one">
+            <div class="image-container">
+              <img src="images/stay1.svg" alt="Stay 1" />
+              <div class="overlay">
+                <div class="overlay-heading">Tour Bali</div>
+                <div class="overlay-subheading">12,541 Traveller</div>
+              </div>
+            </div>
+          </div>
+          <div class="two">
+            <div class="image-container">
+              <img src="images/stay2.svg" alt="Stay 2" />
+              <div class="overlay">
+                <div class="overlay-heading">Tour Dubai</div>
+                <div class="overlay-subheading">12,541 Traveller</div>
+              </div>
+            </div>
+          </div>
+          <div class="three">
+            <div class="image-container">
+              <img src="images/stay3.svg" alt="Stay 3" />
+              <div class="overlay">
+                <div class="overlay-heading">Tour Amsterdam</div>
+                <div class="overlay-subheading">12,541 Traveller</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Discover new favourite stay code end -->
+
+    <!-- Featurein Leading Media section code start -->
+    <div class="media-container">
+      <div class="as-seen-text">As seen on !</div>
+      <div class="leading-media">Feature in Leading Media</div>
+      <div class="flex-media">
+        <div><img src="images/snn.svg" /></div>
+        <div><img src="images/fox40.svg" /></div>
+        <div><img src="images/journal.svg" /></div>
+        <div><img src="images/digital-journal.svg" /></div>
+        <div><img src="images/benzinga.svg" /></div>
+      </div>
+    </div>
+    <!-- Featurein Leading Media section code end -->
+    <footer class="page-footer">
+      <div class="footer-pad">
+        <div class="row">
+          <div class="col l4 s12">
+            <div><img src="images/wizfairlogo.svg" alt="Logo" /></div>
+            <div class="footer-heading">Contact Us</div>
+            <div class="mail-text"> <span><img src="images/mail.svg"/></span>  &nbsp;&nbsp;info@wizfairtravels.com</div>
+            <div class="mail-text"><span><img src="images/phone.svg"/></span> &nbsp; +1 (844) 877-3042</div>
+            <div class="footer-address">CST# 215632-40.</div>
+            <div class="footer-address">Fla. Seller of Travel Ref. No. ST44831</div>
+          </div>
+          <div class="col l3 s12">
+            <div class="footer-heading">Top Destinations</div>
+            <ul>
+              <li><a href="#!">Flight to Bail</a></li>
+              <li><a href="#!">Flight to Amsterdam</a></li>
+              <li><a href="#!">Flight to Aruba</a></li>
+              <li><a href="#!">Flight to Toronto</a></li>
+              <li><a href="#!">Flight to Cancun</a></li>
+            </ul>
+          </div>
+          <div class="col l3 s12">
+            <div class="footer-heading">Quick Links</div>
+            <ul>
+              <li><a href="#!">Flight</a></li>
+              <li><a href="#!">Hotels</a></li>
+              <li><a href="#!">Contact US</a></li>
+              <li><a href="#!">Refund Policy</a></li>
+              <li><a href="#!">CCPA</a></li>
+            </ul>
+          </div>
+          <div class="col l2 s12">
+            <div class="footer-heading right-align">Airlines</div>
+            <ul class="right-align">
+              <li><a href="#!">Delta</a></li>
+              <li><a href="#!">American</a></li>
+              <li><a href="#!">United</a></li>
+              <li><a href="#!">Volaris</a></li>
+              <li><a href="#!">Air Canada</a></li>
+            </ul>
+          </div>
+        </div>
+        <br />
+        <hr />
+        <div class="row">
+          <div class="col l12 s12">
+            <div class="footer-text">
+              At Wizfair Travels, We take the stress out of travel planning and
+              make it easy for you to create unforgettable memories. You can
+              come, cutomize your preferred packeged deal, and find solace in
+              one of the most amazing destinations across the globe. Check out
+              the best packages available today!
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-flex">
+        <div>&#9400; 2023 - 2024 Wizfair Travels. All right reserved.</div>
+        <div>Disclaimer | Terms & Conditions | Privacy Policy | Site Map</div>
+      </div>
+      <div class="footer-bg">
+        <img src="images/bottom-footer.svg" width="100%" />
+      </div>
+    </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+  </body>
+</html>
